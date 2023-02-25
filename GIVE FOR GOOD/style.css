@@ -122,15 +122,40 @@ html {
 
 .title-image {
     position: absolute;
-    width: 100%;
+    
+    width: 50%;
+}
+.title-image {
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    -webkit-transition: all .5s ease-in-out;
+    width: 24rem;
+    height: 24rem;
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+    margin-top: -100px;
+    display: block;
+    -webkit-transition: -webkit-transform 1s;
+}
+.title-image1 {
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    -webkit-transition: all .5s ease-in-out;
+    width: 24rem;
+    height: 24rem;
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+    margin-top: 50px;
+    margin-left: 280px;
+    display: block;
+    -webkit-transition: -webkit-transform 1s;
 }
 
+
 .container-fluid {
-    padding: 10% 15% 4%;
+    padding: 10% 25% 4% 10%;
 }
 
 .download-button {
-    margin: 5% 3% 5% 0;
+    margin: 5% 3% 5% 3%;
 }
 
 #rzp-button1 {
